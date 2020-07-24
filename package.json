@@ -1,0 +1,27 @@
+{
+  "name": "holiday-colors",
+  "version": "0.1.0",
+  "description": "themes that change based off of time of the year",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw"
+  },
+  "keywords": [
+    "colors",
+    "theme"
+  ],
+  "author": "Chance Eakin",
+  "license": "ISC",
+  "dependencies": {
+    "rollup": "2.22.2",
+    "rollup-plugin-terser": "6.1.0",
+    "rollup-plugin-typescript2": "0.27.1",
+    "typescript": "3.9.7"
+  }
+}
