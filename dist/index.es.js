@@ -1,1 +1,1 @@
-var o=function(){return console.log("Hello, world!")};export{o as greet};
+var o=function(){console.log("what the fuck")};export{o as greet};
