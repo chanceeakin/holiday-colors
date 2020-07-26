@@ -1,4 +1,1 @@
-var r = function () {
-  return 1;
-};
-export { r as theme };
+var r=function(){return 1};export{r as theme};
