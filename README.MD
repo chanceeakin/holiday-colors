@@ -1,18 +1,16 @@
 # Holiday Colors
 
+> ⚠️ This project is in active development. Expect the API to change until a stable (1.0) release.
+
 ## What
 
 A collection of functions that trigger website theme/style changes based on date/time of year.
 
 ## Why
 
-I really want to change the style on my website without updating colors.
+I really want to change the style/theme of my app without updating colors manually.
 
-## Example usage
-
-Black Friday colors/theme for a website. Halloween colors that roll straight into Thanksgiving themes which roll straight into Christmas.
-
-## Roadmap to v1
+## Roadmap to v0.2
 
 - build out date functions for:
   - Valentine's Day
@@ -20,4 +18,7 @@ Black Friday colors/theme for a website. Halloween colors that roll straight int
   - Christmas
 - Build out default themes
 - tests
-- CI/CD
+
+## Want to contribute?
+
+Feel free to open a ticket/issue/PR or reach out here.
