@@ -1,0 +1,32 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.title,
+.text {
+  text-align: center;
+}
+
+.primary {
+  grid-column-start: 1;
+  width: 100%;
+  height: 4rem;
+}
+
+.secondary {
+  grid-column-start: 2;
+  width: 100%;
+  height: 4rem;
+}
+
+.error {
+  grid-column-start: 3;
+  width: 100%;
+  height: 4rem;
+}
