@@ -8,8 +8,8 @@ jobs:
     name: npm-publish
     runs-on: ubuntu-latest
     steps:
-      - name:  'Automated Version Bump'
-          uses:  'phips28/gh-action-bump-version@master'
+      - name: 'Automated Version Bump'
+          uses: 'phips28/gh-action-bump-version@master'
           with:
             tag-prefix:  ''
       - name: Checkout repository
