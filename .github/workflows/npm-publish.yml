@@ -17,6 +17,7 @@ jobs:
           node-version: 14.x
           registry-url: https://registry.npmjs.org
       - run: npm install
+      - run: npm test
       - run: npm run build
       - name: Automated Version Bump
         uses: phips28/gh-action-bump-version@master

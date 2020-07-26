@@ -1,3 +1,3 @@
-export const greet = () => {
-  console.log("hey");
+export const theme = () => {
+  return 1;
 };

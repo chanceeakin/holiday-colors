@@ -1,1 +1,4 @@
-var o=function(){console.log("hey")};export{o as greet};
+var r = function () {
+  return 1;
+};
+export { r as theme };

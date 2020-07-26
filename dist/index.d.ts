@@ -1,1 +1,1 @@
-export declare const greet: () => void;
+export declare const theme: () => number;
