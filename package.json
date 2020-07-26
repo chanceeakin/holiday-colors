@@ -1,6 +1,6 @@
 {
   "name": "holiday-colors",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "themes that change based off of time of the year",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
