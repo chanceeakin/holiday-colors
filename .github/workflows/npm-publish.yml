@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Automated Version Bump
-          uses: 'phips28/gh-action-bump-version@master'
+          uses: phips28/gh-action-bump-version@master
           with:
             tag-prefix: ''
       - name: Checkout repository
@@ -17,8 +17,8 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: '14.x'
-          registry-url: 'https://registry.npmjs.org'
+          node-version: 14.x
+          registry-url: https://registry.npmjs.org
       - run: npm install
       - run: npm run build
       - run: npm publish
