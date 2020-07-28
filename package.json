@@ -18,7 +18,15 @@
     "theme"
   ],
   "author": "Chance Eakin",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chanceeakin/holiday-colors.git"
+  },
+  "homepage": "https://github.com/chanceeakin/holiday-colors",
+  "bugs": {
+    "url": "https://github.com/chanceeakin/holiday-colors/issues"
+  },
   "dependencies": {
     "color": "3.1.2",
     "date-fns": "2.15.0",
