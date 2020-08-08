@@ -16,7 +16,6 @@ const themeObj = {
       startDate: new Date("December 1"),
       endDate: new Date("December 26"),
     },
-
     {
       name: "valentines",
       theme: {
@@ -48,11 +47,11 @@ const themeObj = {
 
 function updateColors() {
   const theme = createTheme({ ...themeObj, date });
-  console.log(theme);
   ["primary", "secondary", "error"].forEach((opt) => {
     document.querySelector(`.${opt}`).style.background = theme[opt];
   });
 }
+
 function changeDate(e) {
   date = new Date(e.target.value);
   updateColors();
