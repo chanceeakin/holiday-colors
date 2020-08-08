@@ -11,7 +11,8 @@
   "scripts": {
     "build": "rollup -c",
     "test": "jest",
-    "watch": "rollup -cw"
+    "watch": "rollup -cw",
+    "serve:example": "./node_modules/.bin/serve ."
   },
   "keywords": [
     "colors",
@@ -38,6 +39,7 @@
   },
   "devDependencies": {
     "@types/jest": "26.0.7",
+    "serve": "11.3.2",
     "ts-jest": "26.1.3"
   }
 }
